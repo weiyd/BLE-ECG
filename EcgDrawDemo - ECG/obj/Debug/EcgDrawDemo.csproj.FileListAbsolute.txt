@@ -1,0 +1,171 @@
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\EcgDraw.exe.config
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\EcgDraw.exe
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\EcgDraw.pdb
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\MasterEmulator.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\Ulpbt.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\Microsoft.Scripting.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\IronPython.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\hci_coder_net.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\Signalyzer.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\Segger.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\UlpbtUtils.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\Microsoft.Dynamic.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\Microsoft.Scripting.Metadata.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\bin\Debug\MasterEmulator.xml
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\obj\Debug\ResolveAssemblyReference.cache
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\obj\Debug\EcgDraw.EcgDraw.resources
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\obj\Debug\EcgDraw.Properties.Resources.resources
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\obj\Debug\GenerateResource.read.1.tlog
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\obj\Debug\GenerateResource.write.1.tlog
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\obj\Debug\EcgDraw.exe
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\HealthThermoDemo\obj\Debug\EcgDraw.pdb
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\EcgDraw.exe.config
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\obj\Debug\EcgDraw.exe
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\obj\Debug\EcgDraw.pdb
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\EcgDraw.exe
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\EcgDraw.pdb
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\Ulpbt.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\Microsoft.Scripting.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\IronPython.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\hci_coder_net.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\Signalyzer.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\Segger.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\UlpbtUtils.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\Microsoft.Dynamic.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\Microsoft.Scripting.Metadata.dll
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\bin\Debug\MasterEmulator.xml
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\obj\Debug\ResolveAssemblyReference.cache
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\obj\Debug\EcgDraw.EcgDraw.resources
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\obj\Debug\EcgDraw.Properties.Resources.resources
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\obj\Debug\GenerateResource.read.1.tlog
+F:\Program Files\Nordic Semiconductor\Master Emulator\2.1.6.8098\Example code\EcgDrawDemo\obj\Debug\GenerateResource.write.1.tlog
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\EcgDraw.exe.config
+E:\MyWorkspace\EcgDrawDemo\obj\Debug\EcgDraw.exe
+E:\MyWorkspace\EcgDrawDemo\obj\Debug\EcgDraw.pdb
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\EcgDraw.exe
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\EcgDraw.pdb
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\Ulpbt.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\Microsoft.Scripting.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\IronPython.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\hci_coder_net.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\Signalyzer.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\Segger.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\UlpbtUtils.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\Microsoft.Dynamic.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\Microsoft.Scripting.Metadata.dll
+E:\MyWorkspace\EcgDrawDemo\bin\Debug\MasterEmulator.xml
+E:\MyWorkspace\EcgDrawDemo\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+E:\MyWorkspace\EcgDrawDemo\obj\Debug\EcgDraw.EcgDraw.resources
+E:\MyWorkspace\EcgDrawDemo\obj\Debug\EcgDraw.Properties.Resources.resources
+E:\MyWorkspace\EcgDrawDemo\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\EcgDraw.exe.config
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\obj\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\obj\Debug\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\MasterEmulator.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\Ulpbt.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\Microsoft.Scripting.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\IronPython.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\hci_coder_net.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\UlpbtUtils.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\Signalyzer.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\Microsoft.Dynamic.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\bin\Debug\MasterEmulator.xml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\obj\Debug\EcgDraw.EcgDraw.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\obj\Debug\EcgDraw.Properties.Resources.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\EcgDraw.exe.config
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\obj\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\obj\Debug\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\Ulpbt.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\Microsoft.Scripting.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\IronPython.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\hci_coder_net.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\UlpbtUtils.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\Signalyzer.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\Microsoft.Dynamic.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\bin\Debug\MasterEmulator.xml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\obj\Debug\EcgDraw.EcgDraw.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\obj\Debug\EcgDraw.Properties.Resources.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - 副本\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe.config
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\Ulpbt.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\Microsoft.Scripting.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\IronPython.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\hci_coder_net.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\UlpbtUtils.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\Signalyzer.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\Microsoft.Dynamic.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\bin\Debug\MasterEmulator.xml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.EcgDraw.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.Properties.Resources.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.12.6\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Users\AD\Desktop\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+C:\Users\AD\Desktop\EcgDrawDemo - ECG\obj\Debug\EcgDraw.EcgDraw.resources
+C:\Users\AD\Desktop\EcgDrawDemo - ECG\obj\Debug\EcgDraw.Properties.Resources.resources
+C:\Users\AD\Desktop\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe.config
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\MasterEmulator.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\Ulpbt.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\Microsoft.Scripting.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\IronPython.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\hci_coder_net.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\UlpbtUtils.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\Signalyzer.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\Microsoft.Dynamic.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Debug\MasterEmulator.xml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.EcgDraw.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.Properties.Resources.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Debug\EcgDraw.pdb
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe.config
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\EcgDraw.pdb
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\Ulpbt.dll
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\Microsoft.Scripting.dll
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\IronPython.dll
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\hci_coder_net.dll
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\UlpbtUtils.dll
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\Signalyzer.dll
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\bin\Debug\MasterEmulator.xml
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\obj\Debug\EcgDraw.EcgDraw.resources
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\obj\Debug\EcgDraw.Properties.Resources.resources
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\obj\Debug\EcgDraw.exe
+C:\Users\AD\Desktop\心电贴\EcgDrawDemo - ECG\obj\Debug\EcgDraw.pdb
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe.config
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDraw.exe
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDraw.pdb
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\EcgDraw.exe
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\EcgDraw.pdb
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\Ulpbt.dll
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\Microsoft.Scripting.dll
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\IronPython.dll
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\hci_coder_net.dll
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\UlpbtUtils.dll
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\Signalyzer.dll
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\MasterEmulator.xml
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDraw.EcgDraw.resources
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDraw.Properties.Resources.resources
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache

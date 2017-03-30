@@ -1,0 +1,17 @@
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\EcgDraw.exe.config
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\EcgDraw.pdb
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\MasterEmulator.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\Ulpbt.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\Microsoft.Scripting.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\IronPython.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\hci_coder_net.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\UlpbtUtils.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\Signalyzer.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\Microsoft.Dynamic.dll
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\bin\Release\MasterEmulator.xml
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Release\EcgDraw.EcgDraw.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Release\EcgDraw.Properties.Resources.resources
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Release\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Release\EcgDraw.exe
+C:\Program Files (x86)\Nordic Semiconductor\Master Emulator\2.1.13.14\Example code\EcgDrawDemo - ECG\obj\Release\EcgDraw.pdb
