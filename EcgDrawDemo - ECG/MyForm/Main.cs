@@ -1,36 +1,21 @@
-﻿using System;
+﻿using Nordicsemi;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Windows.Forms;
+using System.Linq;
+using System.Text;
 using System.Timers;
-using Nordicsemi;
-using System.IO;
-namespace EcgDraw
+using System.Windows.Forms;
+
+namespace EcgDrawDemo
 {
-    public partial class EcgDraw : Form
+    public partial class Main : Form
     {
-
-        public DataAdapter0 da0;
-        enum AlertLevel : byte
-        {
-            Off = 0x00,
-            Low = 0x01,
-            High = 0x02,
-        }
-
-        [Flags]
-        enum BatteryState : byte
-        {
-            Present = 0x1,
-            Discharging = 0x02,
-            CriticalLevel = 0x04,
-            Charging = 0x08,
-            ServiceRequired = 0x10,
-            Valid = 0x20
-        }
-
+        #region 私有成员变量
+        // 状态栏日志
         class AppText
         {
             public const string StartingUp = "Starting up";
@@ -55,18 +40,23 @@ namespace EcgDraw
             public const string StopScanError = "Failed to stop device discovery";
             public const string StartScanError = "Failed to start device discovery";
         }
-
+        // Nordic蓝牙仿真器
         MasterEmulator masterEmulator;
+        // 后台活动（用于初始化蓝牙硬件）
         BackgroundWorker initMasterEmulatorWorker = new BackgroundWorker();
+        // 后台活动（用于数据接收）
         BackgroundWorker backgroundConnectWorker = new BackgroundWorker();
+        // 对log进行数据绑定
         BindingList<StringValue> log = new BindingList<StringValue>();
+        // 定义字典用于是别的蓝牙设备
         Dictionary<string, BtDevice> discoveredDevicesList = new Dictionary<string, BtDevice>();
+        // 定时器用于重新连接时间
         System.Timers.Timer reconnectTimer = new System.Timers.Timer();
+        // 定时器用于清除测量时间
         System.Timers.Timer clearMeasureIndicationTimer = new System.Timers.Timer();
 
-
         bool pipeDiscoveryComplete = false;
-        bool isOpen = false;
+        bool isOpen = false; // 是否打开
         bool isConnected = false;
         bool isBonded = false;
         bool isRunning = false;
@@ -77,20 +67,17 @@ namespace EcgDraw
         double measuredTemp = 0;
         BtDeviceAddress curDeviceAddress = null;
         BtDevice selectedDevice = null;
-
-        public EcgDraw()
+        #endregion
+        public DataAdapter0 da0=new DataAdapter0(new ECGForm(),1);
+        // 构造函数
+        public Main()
         {
             InitializeComponent();
-
-            da0 = new DataAdapter0(this, 0);
-            da0.init(true, "D:\\11.txt");
-            //Byte[] data = new Byte[10];
-            //da0.getData(data);
         }
 
         private void OnShown(object sender, EventArgs e)
         {
-            splitContainer.Enabled = false;
+            panel.Enabled = false;
             btnOpenClose.Enabled = false;
             //pnlLeftBottom.Enabled = false;
             lblConnectedSymbol.BackColor = Color.Pink;
@@ -160,7 +147,7 @@ namespace EcgDraw
 
         void OnInitMasterEmulatorWorkerDoWork(object sender, DoWorkEventArgs e)
         {
-            this.Invoke((MethodInvoker)delegate()
+            this.Invoke((MethodInvoker)delegate ()
             {
                 log.Add(new StringValue(AppText.StartingUp));
             });
@@ -170,10 +157,10 @@ namespace EcgDraw
 
             IEnumerable<string> usbDevices = masterEmulator.EnumerateUsb();
 
-            this.Invoke((MethodInvoker)delegate()
+            this.Invoke((MethodInvoker)delegate ()
             {
                 PopulateUsbDevComboBox(usbDevices);
-                string usbSerial;
+                //string usbSerial;
                 if (masterEmulatorBoardsCount == 0)
                 {
                     MessageBox.Show(AppText.NoDeviceSelected);
@@ -189,7 +176,7 @@ namespace EcgDraw
         void OnInitMasterEmulatorWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             this.Cursor = Cursors.Default;
-            this.Invoke((MethodInvoker)delegate()
+            this.Invoke((MethodInvoker)delegate ()
             {
                 if (e.Error != null)
                 {
@@ -207,7 +194,7 @@ namespace EcgDraw
         void StartScan()
         {
             bool success = false;
-            this.Invoke((MethodInvoker)delegate()
+            this.Invoke((MethodInvoker)delegate ()
             {
                 btnConnect.Enabled = false;
                 dgvDeviceDiscovery.CurrentCell = null;
@@ -237,7 +224,7 @@ namespace EcgDraw
 
         void OnDeviceDiscovered(object sender, ValueEventArgs<BtDevice> e)
         {
-            this.BeginInvoke((MethodInvoker)delegate()
+            this.BeginInvoke((MethodInvoker)delegate ()
             {
                 dgvDeviceDiscovery.Enabled = true;
                 dgvDeviceDiscovery.Visible = true;
@@ -245,7 +232,7 @@ namespace EcgDraw
                 BtDevice dev = e.Value;
                 string deviceName = "";
                 IDictionary<DeviceInfoType, string> deviceInfo = dev.DeviceInfo;
-                
+
                 if (deviceInfo.ContainsKey(DeviceInfoType.CompleteLocalName))
                 {
                     deviceName = deviceInfo[DeviceInfoType.CompleteLocalName];
@@ -271,7 +258,7 @@ namespace EcgDraw
         {
             const ushort EcgServiceUuid = 0xFFF0;
             const ushort EcgNotiCharacteristicUuid = 0xFFF2;
-            const ushort ecgNotificationUuid = 0x2902;
+           // const ushort ecgNotificationUuid = 0x2902;
 
             /* Setup pipe Temperature Measurement*/
             BtUuid serviceUuid1 = new BtUuid(EcgServiceUuid);
@@ -290,14 +277,14 @@ namespace EcgDraw
 
         private void DisplayErrorMessage(Exception ex)
         {
-            
+
             string message = String.Format("{0}: {1}", AppText.OperationFailed, ex.Message);
             var result = MessageBox.Show(message, "Error", MessageBoxButtons.AbortRetryIgnore,
                 MessageBoxIcon.Exclamation);
             Debug.WriteLine(ex.StackTrace);
             if (result == System.Windows.Forms.DialogResult.Abort)
             {
-                this.Invoke((MethodInvoker)delegate()
+                this.Invoke((MethodInvoker)delegate ()
                 {
                     this.Close();
                 });
@@ -309,7 +296,7 @@ namespace EcgDraw
             masterEmulator.Open(usbSerial);
             masterEmulator.Reset();
             isOpen = true;
-            splitContainer.Enabled = true;
+            panel.Enabled = true;
         }
 
         private void CloseMasterEmulator()
@@ -426,12 +413,14 @@ namespace EcgDraw
         }
         void OnLogMessage(object sender, ValueEventArgs<string> e)
         {
-            this.BeginInvoke((MethodInvoker)delegate()
+            this.BeginInvoke((MethodInvoker)delegate ()
             {
                 log.Add(new StringValue(e.Value));
                 dgvLog.FirstDisplayedScrollingRowIndex = log.Count - 1;
             });
         }
+
+        // 蓝牙数据接收
         int recCnt = 0;
         void OnDataReceived(object sender, PipeDataEventArgs e)
         {
@@ -439,9 +428,9 @@ namespace EcgDraw
             {
                 try
                 {
-                    recCnt ++;
+                    recCnt++;
                     //da0.getData(e.PipeData);
-                   // Console.Write(BitConverter.ToString(e.PipeData) + "\r\n");
+                    //Console.Write(BitConverter.ToString(e.PipeData) + "\r\n");
                     this.Invoke(new Action<byte[]>(da0.getData), new object[] { e.PipeData });
                     if (recCnt > 3)
                     {
@@ -462,8 +451,8 @@ namespace EcgDraw
             reconnectTimer.Enabled = false;
             isConnected = true;
             isBonded = true;
-            this.BeginInvoke((MethodInvoker)delegate()
-            {   
+            this.BeginInvoke((MethodInvoker)delegate ()
+            {
                 lblConnectedSymbol.BackColor = Color.LightGreen;
                 //if (pipeDiscoveryComplete)
                 //{
@@ -471,13 +460,13 @@ namespace EcgDraw
                 //}
                 btnConnect.Text = AppText.Disconnect;
             });
-            
+
         }
 
         void OnPipeError(object sender, PipeErrorEventArgs e)
         {
             Exception pipeErrorMsg = new Exception((e.ErrorCode).ToString());
-            this.BeginInvoke((MethodInvoker)delegate()
+            this.BeginInvoke((MethodInvoker)delegate ()
             {
                 DisplayErrorMessage(pipeErrorMsg);
             });
@@ -492,7 +481,7 @@ namespace EcgDraw
                 {
                     //RunBackgroundConnectWorker();
                 }
-                this.BeginInvoke((MethodInvoker)delegate()
+                this.BeginInvoke((MethodInvoker)delegate ()
                 {
                     lblConnectedSymbol.BackColor = Color.Pink;
                     //pnlRight.BackColor = SystemColors.Control;
@@ -502,14 +491,14 @@ namespace EcgDraw
             }
             catch (Exception ex)
             {
-                this.BeginInvoke((MethodInvoker)delegate()
+                this.BeginInvoke((MethodInvoker)delegate ()
                 {
                     DisplayErrorMessage(ex);
                 });
             }
             finally
             {
-                this.BeginInvoke((MethodInvoker)delegate()
+                this.BeginInvoke((MethodInvoker)delegate ()
                 {
                     this.Cursor = Cursors.Default;
                 });
@@ -573,7 +562,7 @@ namespace EcgDraw
             }
             catch (Exception ex)
             {
-                this.Invoke((MethodInvoker)delegate()
+                this.Invoke((MethodInvoker)delegate ()
                 {
                     DisplayErrorMessage(ex);
                 });
@@ -676,8 +665,8 @@ namespace EcgDraw
 
         private void buttonNoti_Click(object sender, EventArgs e)
         {
-            Byte []data = new Byte[2] { 0x00, 0x01 };
-            masterEmulator.SendData(pipeElecNotification,data);
+            Byte[] data = new Byte[2] { 0x00, 0x01 };
+            masterEmulator.SendData(pipeElecNotification, data);
         }
 
         private void buttonScan_Click(object sender, EventArgs e)
@@ -698,42 +687,121 @@ namespace EcgDraw
             }
         }
 
-        private void buttonTimeSyn_Click(object sender, EventArgs e)
+        private void btnOpenClose_Click(object sender, EventArgs e)
         {
+            int selectedItem = cboUsbSerial.SelectedIndex;
+            string usbSerial;
+            if (selectedItem >= 0)
+            {
+                usbSerial = (string)cboUsbSerial.Items[selectedItem];
+            }
+            else
+            {
+                MessageBox.Show(AppText.NoDeviceSelected);
+                return;
+            }
 
+            try
+            {
+                this.Cursor = Cursors.WaitCursor;
+                if (!isOpen)
+                {
+                    OpenMasterEmulator(usbSerial);
+
+                    if (!isRunning)
+                    {
+                        PerformPipeSetup();
+                        Run();
+                        StartScan();
+                    }
+                    btnOpenClose.Text = AppText.Close;
+
+                }
+                else
+                {
+                    CloseMasterEmulator();
+                }
+            }
+            catch (Exception ex)
+            {
+                this.Invoke((MethodInvoker)delegate ()
+                {
+                    DisplayErrorMessage(ex);
+                });
+            }
+            finally
+            {
+                this.Cursor = Cursors.Default;
+            }
         }
 
-		private void dgvLog_CellContentClick(object sender, DataGridViewCellEventArgs e)
-		{
-
-		}
-
-		private void btnClear_Click(object sender, EventArgs e)
-		{
-			for(int i=0;i< da0.m_fp.chartThreeAsix.Series.Count;i++)
-			{
-				da0.m_fp.chartThreeAsix.Series[i].Points.Clear();
-			}
-			for (int i = 0; i < da0.m_fp.chartTemperate.Series.Count; i++)
-			{
-				da0.m_fp.chartTemperate.Series[i].Points.Clear();
-			}
-			for (int i = 0; i < da0.m_fp.chartElec.Series.Count; i++)
-			{
-				da0.m_fp.chartElec.Series[i].Points.Clear();
-			}
-		}
-
-        private void label1_Click(object sender, EventArgs e)
+        private void buttonScan_Click_1(object sender, EventArgs e)
         {
-
+            if (!masterEmulator.IsDeviceDiscoveryOngoing)
+            {
+                discoveredDevicesList.Clear();
+                dgvDeviceDiscovery.ColumnCount = discoveredDevicesList.Count;
+                StartScan();
+            }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void buttonStopScan_Click_1(object sender, EventArgs e)
         {
-            label1.Text = "实时心率："+da0.HR.ToString();
+            if (masterEmulator.IsDeviceDiscoveryOngoing)
+            {
+                masterEmulator.StopDeviceDiscovery();
+            }
+        }
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+            if (!isConnected)
+            {
+                this.Cursor = Cursors.WaitCursor;
+                StopScan();
+                if (dgvDeviceDiscovery.SelectedRows.Count > 0)
+                {
+                    try
+                    {
+                        ConnectToDevice();
+                    }
+                    catch (Exception ex)
+                    {
+                        DisplayErrorMessage(ex);
+                    }
+                    finally
+                    {
+                        this.Cursor = Cursors.Default;
+                    }
+                }
+            }
+            else
+            {
+                try
+                {
+                    isBonded = false;
+                    if (masterEmulator.IsConnected)
+                    {
+                        masterEmulator.Disconnect();
+                    }
+                    pipeDiscoveryComplete = false;
+                    //masterEmulator.DeleteBondInformation();
+                }
+                catch (Exception ex)
+                {
+                    DisplayErrorMessage(ex);
+                }
+                finally
+                {
+                    this.Cursor = Cursors.Default;
+                }
+            }
+        }
+
+        private void buttonNoti_Click_1(object sender, EventArgs e)
+        {
+            Byte[] data = new Byte[2] { 0x00, 0x01 };
+            masterEmulator.SendData(pipeElecNotification, data);
         }
     }
-
-    
 }

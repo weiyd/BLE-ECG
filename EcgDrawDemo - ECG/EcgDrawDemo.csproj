@@ -12,7 +12,7 @@
     <AssemblyName>EcgDraw</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ApplicationIcon>milecg.ico</ApplicationIcon>
+    <ApplicationIcon>Config\milecg.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -71,19 +71,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAdapter.cs" />
-    <Compile Include="Filter.cs" />
-    <Compile Include="StringValue.cs" />
-    <Compile Include="EcgDrawDemo.cs">
+    <Compile Include="DataReceive\DataAdapter.cs" />
+    <Compile Include="MyForm\ECGForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EcgDrawDemo.Designer.cs">
+    <Compile Include="MyForm\ECGForm.Designer.cs">
+      <DependentUpon>ECGForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Algorithm\Filter.cs" />
+    <Compile Include="Config\StringValue.cs" />
+    <Compile Include="Main\EcgDrawDemo.cs" />
+    <Compile Include="Main\EcgDrawDemo.Designer.cs">
       <DependentUpon>EcgDrawDemo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="MyForm\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyForm\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="EcgDrawDemo.resx">
+    <Compile Include="MyForm\TemperatureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyForm\TemperatureForm.Designer.cs">
+      <DependentUpon>TemperatureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyForm\ThreeAxisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyForm\ThreeAxisForm.Designer.cs">
+      <DependentUpon>ThreeAxisForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main\EcgDrawDemo.resx">
       <DependentUpon>EcgDrawDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,8 +120,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="app.config" />
-    <None Include="ClassDiagram2.cd" />
+    <None Include="Config\app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -108,7 +132,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="milecg.ico" />
+    <Content Include="Config\milecg.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -127,6 +151,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

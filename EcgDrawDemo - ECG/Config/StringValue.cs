@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EcgDraw
+namespace EcgDrawDemo
 {
     public class StringValue : IEquatable<StringValue>
     {

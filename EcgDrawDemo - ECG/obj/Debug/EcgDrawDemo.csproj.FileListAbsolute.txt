@@ -166,6 +166,7 @@ C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\Signalyzer.dll
 C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\Microsoft.Dynamic.dll
 C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\bin\Debug\MasterEmulator.xml
 C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csprojResolveAssemblyReference.cache
-C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDraw.EcgDraw.resources
 C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDraw.Properties.Resources.resources
 C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.csproj.GenerateResource.Cache
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDraw.Main.EcgDrawDemo.resources
+C:\Users\AD\Desktop\改布局\EcgDrawDemo - ECG\obj\Debug\EcgDrawDemo.Main.resources
